@@ -1,0 +1,28 @@
+/* Hero section custom background gradient */
+.hero-banner {
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe3e3 100%);
+}
+
+/* Restrict card image heights for consistent grid layout */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Category horizontal scroll container styling */
+#category-list::-webkit-scrollbar {
+  display: none;
+}
+#category-list {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* General smoothness */
+.card {
+  transition: transform 0.2s ease, shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
